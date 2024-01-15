@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+    
+   
 }
 nav{
     display: flex;
@@ -23,8 +25,7 @@ nav ul li{
 .hero{
     width: 100%;
     height: 800px;
-    background: url('dune3.jpg')no-repeat center/cover;
-    background-position: ;
+    background: url('dune5.jpg')no-repeat center/cover;
 }
 .hero h1{
     text-transform: capitalize;
@@ -37,5 +38,62 @@ nav ul li{
     text-transform: uppercase;
     font-weight: bold;
     color: #d21818;
+    font-size: 32px;
 
+}
+
+.play{
+    width: 135px;
+    height: 45px;
+    color: black;
+    font-size: 18px;
+    font-weight:600;
+    border-radius: 5px;
+    margin-top: 5px;
+    border-color: rgba(255, 0, 0, 0);
+}
+.info{
+      width: 135px;
+    height: 45px;
+    color: white;
+    font-size: 18px;
+    font-weight:600;
+    border-radius: 5px;
+    margin-top: 5px; 
+    background: #545657;
+    text-transform: capitalize;
+    border-color: #54565700;
+}
+#popular{
+    background: ;
+}
+.popular{
+    font-size: 22px;
+    margin-top: 0px;
+    padding: 0 40px;
+    margin-top: -180px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+    background: linear-gradient(to bottom, #35333300, #000000);}
+
+.popular2{
+    font-size: 22px;
+    margin-top: 0px;
+    padding: 0 40px;
+    background: black;
+    padding-top: 30px;
+}
+.cards2{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 10px;
+    background: black;
+}
+img:hover{
+ cursor: pointer;
 }
