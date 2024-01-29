@@ -7,6 +7,9 @@
     
    
 }
+body{
+    overflow-x: hidden;
+}
 nav{
     display: flex;
     color: rgb(204, 203, 203);
